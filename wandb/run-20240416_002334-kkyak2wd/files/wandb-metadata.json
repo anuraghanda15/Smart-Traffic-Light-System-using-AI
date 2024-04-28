@@ -1,0 +1,64 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2024-04-15T18:53:36.222657",
+    "startedAt": "2024-04-15T18:53:34.739320",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "16",
+        "--epochs",
+        "50",
+        "--data",
+        "dataset.yaml",
+        "--weights",
+        "yolov5m.pt"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\DELL\\Downloads\\Adaptive-Traffic-Signal-Timer-main\\Code\\Vehicle-Detection\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/MaryamBoneh/Vehicle-Detection",
+        "commit": "fc9278a56cbe880a2c698eb5d1e72e6251e47e45"
+    },
+    "email": "anuraghanda15@iiitsonepat.ac.in",
+    "root": "C:/Users/DELL/Downloads/Adaptive-Traffic-Signal-Timer-main/Code/Vehicle-Detection",
+    "host": "King",
+    "username": "DELL",
+    "executable": "C:\\python\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2496.0,
+        "min": 0.0,
+        "max": 2496.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 2496.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 338.38964462280273,
+            "used": 282.13578033447266
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.79852294921875
+    }
+}
